@@ -1,1 +1,2 @@
-Machine learning algorithms from stratch
+# Machine learning algorithms from stratch
+"forked" from https://github.com/DandelionLau/MachineLearning
