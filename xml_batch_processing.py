@@ -50,10 +50,10 @@ def extract_data(table_name):
                 print(f + ' - Error converting to DataFrame for ' + table_name)
                 print(str(type(xmldoc)))
             
-            # print(table_name + ' | Rows: ' + str(df.shape[0]) + ', Columns: ' + str(df.shape[1]))
+            print(table_name + ' | Rows: ' + str(df.shape[0]) + ', Columns: ' + str(df.shape[1]))
 
-    # df.to_csv(os.path.join(output, table_name.replace('_-POSDW_-E1BP', '') + '.csv'), index=False)
-    df.to_json(os.path.join(output, table_name.replace('_-POSDW_-E1BP', '') + '.json'), orient='records')
+    df.to_csv(os.path.join(output, table_name.replace('_-POSDW_-E1BP', '') + '.csv'), index=False)
+    # df.to_json(os.path.join(output, table_name.replace('_-POSDW_-E1BP', '') + '.json'), orient='records')
 
     df = pd.DataFrame() # flush data
 
