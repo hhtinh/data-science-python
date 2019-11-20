@@ -9,6 +9,8 @@ def validate(username):
     else:
         return f"{username} is NOT valid"
     
-print(validate("Mike-Standish-a-very-long")) #Invalid username
-print(validate("Mike Standish")) #Invalid username
-print(validate("Mike-Standish-")) #Invalid username
+print(validate("Mike")) # Invalid username
+print(validate("Mike-Standish-very-long")) # Invalid username
+print(validate("Mike Standish")) # Invalid username
+print(validate("Mike-Standish-")) # Invalid username
+print(validate("Mike-Standish")) # Valid username
