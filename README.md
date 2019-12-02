@@ -4,7 +4,7 @@ Data Science with Python (Personal Research)
 
 ```json
     { "FullName": "Huỳnh Hữu Tính",
-      "Email": "hhtinh@live.com",
+      "Email": "hhtinh@gmail.com",
       "LinkedInProfile": "https://www.linkedin.com/in/tinhhuynh"
     }  
 ```
