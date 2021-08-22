@@ -17,4 +17,4 @@ for f in files:
         print('Error parsing xml '+f)
     else:
         with open(os.path.join(output, f.split('.')[0]+'.json'), 'w+') as json_file:
-            json.dump(data_dict, json_file, indent=4, sort_keys=True)
+            json.dump(xmldata, json_file, indent=4, sort_keys=True)
